@@ -70,6 +70,7 @@ nav ul li a:visited {
   font-size: 1rem;
   border-radius: 16px;
   cursor: pointer;
+  transition: 0.3s ease;
 }
 .btn-contact:hover {
   background-color: #fff;
@@ -432,6 +433,7 @@ nav ul li a:visited {
 
 /*  */
 .section-two {
+  padding: 10px;
   height: 60vh;
   border: 2px solid red;
   margin-top: 10px;
@@ -476,6 +478,7 @@ nav ul li a:visited {
   font-size: 1rem;
   width: 180px;
   border-radius: 1.5rem;
+  transition: 0.3s ease;
 }
 .text-section-two .section-two-btn:hover {
   background-color: lightgreen;
@@ -559,6 +562,75 @@ nav ul li a:visited {
 /*------------- section three -----------*/
 .section-three {
   border: 2px solid red;
-  height: 50vh;
+  height: 70vh;
+  padding: 10px;
   margin-top: 70px;
+}
+.section-three-layout {
+  display: flex;
+  height: 100%;
+}
+.box-1,
+.box-2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  border: 2px solid red;
+}
+.box-1-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* align-items: center; */
+  justify-content: center;
+}
+.box-1-content p:nth-child(1) {
+  background-color: lightblue;
+  display: inline;
+  padding: 5px;
+  width: 70px;
+  /* margin-bottom: 20px; */
+  text-align: center;
+  border-radius: 5px;
+}
+.box-1-content h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.box-2 {
+  align-items: center;
+}
+.box-2 .message {
+  position: relative;
+  display: flex;
+  width: 300px;
+  height: 90%;
+  padding: 3px;
+  border-radius: 10px;
+  background-color: #295f41;
+}
+.box-2 .message .profile {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 1rem;
+}
+.box-2 .message .profile:nth-child(1) {
+  background-color: #7b23bf;
+  top: 20px;
+  left: -30px;
+}
+.box-2 .message .profile:nth-child(2) {
+  background-color: #7b23bf;
+  left: 260px;
+  top: 200px;
+}
+.box-2 .message .profile:nth-child(3) {
+  background-color: #7b23bf;
+  left: -30px;
+  top: 380px;
 }
