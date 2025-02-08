@@ -297,7 +297,7 @@ nav ul li a:visited {
   height: 100%;
 }
 .box-four .img-1 {
-  background-image: url(/09_Plong_Rotha_web_Homewor003/images/angkorwat1.jpg);
+  background-image: url(https://i.pinimg.com/736x/e7/ed/19/e7ed19e7a3509a4073c0be8f257bc63e.jpg);
   width: 100px;
   border: 1px solid white;
   background-size: cover;
@@ -421,7 +421,6 @@ nav ul li a:visited {
 .section-two {
   padding: 10px;
   height: 60vh;
-  border: 2px solid red;
   margin-top: 10px;
 }
 
@@ -543,7 +542,6 @@ nav ul li a:visited {
 }
 /*------------- section three -----------*/
 .section-three {
-  border: 2px solid red;
   height: 70vh;
   padding: 10px;
   margin-top: 70px;
@@ -557,7 +555,6 @@ nav ul li a:visited {
   flex: 1;
   display: flex;
   justify-content: center;
-  border: 2px solid red;
 }
 .box-1-content {
   display: flex;
@@ -622,7 +619,6 @@ nav ul li a:visited {
   position: relative;
   display: flex;
   justify-content: center;
-  border: 1px solid red;
 }
 .copyright {
   width: 100%;
